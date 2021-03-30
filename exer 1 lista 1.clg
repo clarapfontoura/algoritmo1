@@ -1,0 +1,18 @@
+algoritmotempo;
+// Síntese
+//  Objetivo:  Contrua um algoritmo para ler o numero de horas e trnasformar pra minutos e segundos 
+//  Entrada :número de horas
+//  Saída   : numero de horas em niutos e em segundos 
+
+
+principal
+	// Declarações
+ inteiro horas,minutos,segundos;
+	// Instruções
+ escreva("Número de horas");
+ leia(horas);
+  minutos== horas*60;
+  segundos==horas*3600;
+    //resultado
+    escreval(minutos,"minutos",segundos,"segundos");
+fimPrincipal

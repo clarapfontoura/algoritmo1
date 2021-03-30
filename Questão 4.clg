@@ -1,0 +1,21 @@
+algoritmo divisorDividendo
+// Síntese
+//  Objetivo: Algoritmo que a partir da leitura de dois números forneça
+//            o resto e o quociente da divisão do primeiro pelo segundo número  
+//  Entrada : dois números, um dividendo e um divisor
+//  Saída   : resto e quociente da divisão desses dois números
+
+
+principal
+	// Declarações das variáveis
+inteiro dividendo, divisor;
+
+    // Instruções
+escreva("Digite um dividendo e um divisor para efetuar a operação matemática:"); 
+escreva("Dividendo: ");
+leia(dividendo);
+escreva("Divisor: ");
+leia(divisor);
+escreva ("O quociente desta divisão é "+dividendo/divisor+"e o resto é"+dividendo%divisor+".");
+fimPrincipal
+ 

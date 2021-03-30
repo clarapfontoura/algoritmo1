@@ -1,0 +1,31 @@
+escreva("Insira o valor de B: ");
+senao 
+	escreva("Insira o valor de B: ");
+fimSe 
+	// A < 10
+se (A < 10) entao
+	escreval("Nota alterada para valor mínimo: 0");
+	A = 0;
+	escreva("Insira o valor de B: ");
+senao
+	escreva("Insira o valor de B: ");
+fimSe
+	// B > 10
+se (B > 10) entao
+	escreval("Nota alterada para valor máximo: 10");
+	B = 10;
+senao 
+	escreva("");
+fimSe
+se (B < 10) entao
+	escreval("Nota alterada para valor mínimo: 0");
+	B = 0;
+senao	
+	escreva("");
+fimSe
+	// valor da média
+media = (A*3.5 + B*7.5);
+	// resultado
+escreval("A média é: ");
+leia(media);
+fimPrincipal
